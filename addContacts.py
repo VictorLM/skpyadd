@@ -4,7 +4,7 @@ import time
 
 user = input("User: ") 
 
-message = input("Mensagem a ser enviada no convite: ") 
+message = input("Mensagem a ser enviada nos convites: ") 
 
 sk = Skype(tokenFile=".tokens-" + user) # Carrega o token
 
